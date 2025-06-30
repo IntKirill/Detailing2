@@ -22,6 +22,7 @@ public class OrderServiceImpl implements OrderService {
     private final OrderRepository orderRepository;
     private final OrderMapper orderMapper;
 
+    //TODO Добавить валидацию. Вместе с  чатом взять задание .
 
     @Override
     public OrderDto createOrder(OrderDto order) {
